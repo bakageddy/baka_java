@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 // Main is the name of the class since it is the name of the file...
 public class Main {
     public static void main(String args[]) {
