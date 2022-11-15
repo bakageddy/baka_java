@@ -27,7 +27,7 @@ class Dinesh extends Thread {
         try {
             for (int i = 0; i < 5; i++) {
                 num = r.nextInt(100);
-                System.out.println(100);
+                System.out.println(num);
 
                 if (num % 2 == 0) {
                     Thread t = new Thread(new Even(num));
